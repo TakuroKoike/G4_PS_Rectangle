@@ -4,19 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/g4user/NGTHEP/G4_PS_Rectangle/source/Application_Main.cc" "/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/Application_Main.cc.o"
-  "/home/g4user/NGTHEP/G4_PS_Rectangle/source/src/EventAction.cc" "/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/EventAction.cc.o"
-  "/home/g4user/NGTHEP/G4_PS_Rectangle/source/src/Geometry.cc" "/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/Geometry.cc.o"
-  "/home/g4user/NGTHEP/G4_PS_Rectangle/source/src/PrimaryGenerator.cc" "/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/PrimaryGenerator.cc.o"
-  "/home/g4user/NGTHEP/G4_PS_Rectangle/source/src/RunAction.cc" "/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/RunAction.cc.o"
-  "/home/g4user/NGTHEP/G4_PS_Rectangle/source/src/UserActionInitialization.cc" "/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/UserActionInitialization.cc.o"
+  "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/source/Application_Main.cc" "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/Application_Main.cc.o"
+  "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/source/src/EventAction.cc" "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/EventAction.cc.o"
+  "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/source/src/Geometry.cc" "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/Geometry.cc.o"
+  "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/source/src/PrimaryGenerator.cc" "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/PrimaryGenerator.cc.o"
+  "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/source/src/RunAction.cc" "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/RunAction.cc.o"
+  "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/source/src/UserActionInitialization.cc" "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir/src/UserActionInitialization.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4INTY_USE_QT"
-  "G4INTY_USE_XT"
+  "G4LIB_BUILD_DLL"
+  "G4MULTITHREADED"
   "G4UI_USE"
   "G4UI_USE_QT"
   "G4UI_USE_TCSH"
@@ -24,8 +25,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4VIS_USE"
   "G4VIS_USE_OPENGL"
   "G4VIS_USE_OPENGLQT"
-  "G4VIS_USE_OPENGLX"
-  "G4VIS_USE_RAYTRACERX"
   "G4_STORE_TRAJECTORY"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
@@ -37,15 +36,21 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/opt/geant4/10.4.2/include/Geant4"
-  "/home/g4user/NGTHEP/G4_PS_Rectangle/source/include"
-  "/usr/include/qt5"
-  "/usr/include/qt5/QtWidgets"
-  "/usr/include/qt5/QtGui"
-  "/usr/include/qt5/QtCore"
-  "/usr/lib64/qt5/./mkspecs/linux-g++"
-  "/usr/include/qt5/QtPrintSupport"
-  "/usr/include/qt5/QtOpenGL"
+  "/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/source/include"
+  "/usr/local/include/Geant4"
+  "/usr/local/include"
+  "/usr/local/opt/qt/lib/QtWidgets.framework"
+  "/usr/local/opt/qt/lib/QtWidgets.framework/Headers"
+  "/usr/local/opt/qt/lib/QtGui.framework"
+  "/usr/local/opt/qt/lib/QtGui.framework/Headers"
+  "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers"
+  "/usr/local/opt/qt/lib/QtCore.framework"
+  "/usr/local/opt/qt/lib/QtCore.framework/Headers"
+  "/usr/local/opt/qt/./mkspecs/macx-clang"
+  "/usr/local/opt/qt/lib/QtPrintSupport.framework"
+  "/usr/local/opt/qt/lib/QtPrintSupport.framework/Headers"
+  "/usr/local/opt/qt/lib/QtOpenGL.framework"
+  "/usr/local/opt/qt/lib/QtOpenGL.framework/Headers"
   )
 
 # Targets to which this target links.
