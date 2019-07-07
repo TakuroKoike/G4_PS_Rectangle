@@ -59,9 +59,9 @@
 // Define Scintillator
 // Define 'Rectangle'
    // Define the shape of solid
-   G4double leng_X_Rectangle = 40.0*mm;
-   G4double leng_Y_Rectangle = 75.0*mm;
-   G4double leng_Z_Rectangle = 3.0*mm;
+   G4double leng_X_Rectangle = 1.0*m;
+   G4double leng_Y_Rectangle = 1.0*m;
+   G4double leng_Z_Rectangle = 1.0*m;
    G4Box* solid_Rectangle = new G4Box( "Solid_Rectangle", leng_X_Rectangle/2.0, leng_Y_Rectangle/2.0, leng_Z_Rectangle/2.0 );
 
    // Define logical volume

@@ -1,7 +1,7 @@
-/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/install.dir
-/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/list_install_components.dir
-/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/rebuild_cache.dir
-/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/edit_cache.dir
-/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/install/strip.dir
-/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/install/local.dir
-/home/g4user/NGTHEP/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir
+/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/install/local.dir
+/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/install/strip.dir
+/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/install.dir
+/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/list_install_components.dir
+/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/rebuild_cache.dir
+/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/edit_cache.dir
+/Users/koike/Documents/GitHub/Geant4/G4_PS_Rectangle/build/CMakeFiles/Application_Main.dir
